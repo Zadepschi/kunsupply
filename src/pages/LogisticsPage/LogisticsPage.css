@@ -9,6 +9,30 @@
   background: #f8fafc;
 }
 
+.logistics__hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.logistics__hero-text {
+  flex: 1;
+}
+
+.logistics__hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.logistics__hero-image img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+}
+
 .logistics__title {
   font-size: clamp(40px, 5vw, 64px);
   margin-bottom: 20px;
@@ -89,16 +113,12 @@
 .logistics__button {
   margin-top: 24px;
   padding: 16px 32px;
-
   border: none;
   border-radius: 8px;
-
   background: white;
   color: #111827;
-
   font-size: 16px;
   font-weight: 600;
-
   cursor: pointer;
 }
 
@@ -116,27 +136,36 @@
   .logistics__section {
     padding: 60px 0;
   }
-}
 
-.logistics__hero-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 40px;
-}
+  .logistics__hero-content {
+    flex-direction: column; /* текст сверху, картинка снизу */
+    text-align: center;
+    gap: 32px;
+  }
 
-.logistics__hero-text {
-  flex: 1;
-}
+  .logistics__hero-text {
+    width: 100%;
+  }
 
-.logistics__hero-image {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-}
+  .logistics__subtitle {
+    max-width: 100%;
+    font-size: 18px;
+  }
 
-.logistics__hero-image img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+  .logistics__hero-image {
+    width: 100%;
+  }
+
+  .logistics__hero-image img {
+
+    margin: 0 auto;
+  }
+
+  .logistics__title {
+    font-size: 36px;
+  }
+
+  .logistics__section h2 {
+    font-size: 28px;
+  }
 }
