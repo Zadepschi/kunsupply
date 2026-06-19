@@ -1,21 +1,34 @@
 import "./LogisticsPage.css";
+import logisticImg from "../../assets/logistic.png"; // путь подстройте под свой проект
 
 export const LogisticsPage = () => {
   return (
     <main className="logistics">
       <section className="logistics__hero">
         <div className="container">
-          <h1 className="logistics__title">
-            Logistics & Delivery
-          </h1>
+          <div className="logistics__hero-content">
+            <div className="logistics__hero-text">
+              <h1 className="logistics__title">
+                Logistics & Delivery
+              </h1>
 
-          <p className="logistics__subtitle">
-            Reliable nationwide distribution of bottled water
-            and bulk food products for retailers,
-            distributors, and businesses.
-          </p>
+              <p className="logistics__subtitle">
+                Reliable nationwide distribution of bottled water
+                and bulk food products for retailers,
+                distributors, and businesses.
+              </p>
+            </div>
+
+            <div className="logistics__hero-image">
+              <img
+                src={logisticImg}
+                alt="Logistics"
+              />
+            </div>
+          </div>
         </div>
       </section>
+
 
       <section className="logistics__section">
         <div className="container">
