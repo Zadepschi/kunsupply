@@ -1,12 +1,17 @@
-import logo from './assets/logo.png'
-import './App.css'
+import { Outlet } from "react-router-dom";
+
+import { Header } from "./widgets/Header";
 
 function App() {
   return (
-    <section id="center">
-      <img src={logo} alt="Hero" />
-    </section>
-  )
+    <>
+      <Header />
+
+      <main>
+        <Outlet />
+      </main>
+    </>
+  );
 }
 
-export default App
+export default App;
