@@ -1,0 +1,52 @@
+.footer {
+background: #111827;
+color: white;
+
+}
+
+.footer__container {
+max-width: 1200px;
+
+margin: 0 auto;
+padding: 60px 24px;
+
+display: grid;
+grid-template-columns: 2fr 1fr 1fr;
+gap: 40px;
+}
+
+.footer__company p,
+.footer__contact p {
+color: #d1d5db;
+line-height: 1.6;
+}
+
+.footer__links {
+display: flex;
+flex-direction: column;
+gap: 12px;
+}
+
+.footer__links a {
+color: #d1d5db;
+}
+
+.footer__links a:hover {
+color: white;
+}
+
+.footer__bottom {
+text-align: center;
+
+padding: 20px;
+
+border-top: 1px solid #374151;
+
+color: #9ca3af;
+}
+
+@media (max-width: 768px) {
+.footer__container {
+grid-template-columns: 1fr;
+}
+}

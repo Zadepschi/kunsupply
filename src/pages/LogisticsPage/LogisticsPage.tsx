@@ -1,7 +1,9 @@
 import "./LogisticsPage.css";
-import logisticImg from "../../assets/logistic.png"; // путь подстройте под свой проект
+import logisticImg from "../../assets/logistic.png"; 
+import { useNavigate } from "react-router-dom";
 
 export const LogisticsPage = () => {
+   const navigate = useNavigate();
   return (
     <main className="logistics">
       <section className="logistics__hero">
@@ -12,11 +14,11 @@ export const LogisticsPage = () => {
                 Logistics & Delivery
               </h1>
 
-              <p className="logistics__subtitle">
-                Reliable nationwide distribution of bottled water
-                and bulk food products for retailers,
-                distributors, and businesses.
-              </p>
+             <p className="logistics__subtitle">
+                Reliable distribution of bottled water
+                and bulk food products across New York
+                for retailers, distributors, and businesses.
+             </p>
             </div>
 
             <div className="logistics__hero-image">
@@ -60,7 +62,7 @@ export const LogisticsPage = () => {
 
               <ul>
                 <li>Flexible order volumes</li>
-                <li>Nationwide coverage</li>
+                <li>Serving businesses across New York State</li>
                 <li>Lower transportation costs</li>
               </ul>
             </div>
@@ -111,9 +113,15 @@ export const LogisticsPage = () => {
             freight estimates, and volume pricing.
           </p>
 
-          <button className="logistics__button">
-            Request Wholesale Pricing
-          </button>
+   <button
+  className="logistics__button"
+  onClick={() => {
+    navigate("/contact");
+    window.scrollTo(0, 0);
+  }}
+>
+  Request Wholesale Pricing
+</button>
         </div>
       </section>
     </main>
