@@ -7,6 +7,7 @@ import Kirkland from "../../assets/kirkland.jpg";
 import PolandSpring from "../../assets/PolandSpring.webp";
 import PureLife from "../../assets/purelife.jpg";
 import ShahCo from "../../assets/Logo_ShahCo.png";
+import Morton from "../../assets/morton logo.png";
 
 export const AboutPage = () => {
 return ( <main className="about"> 
@@ -166,6 +167,12 @@ return ( <main className="about">
     <img
       src={PureLife}
       alt="Pure Life"
+    />
+  </div>
+    <div className="partner-logo">
+    <img
+      src={Morton}
+      alt="Morton"
     />
   </div>
 
