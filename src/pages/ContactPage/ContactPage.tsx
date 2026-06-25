@@ -20,18 +20,14 @@ export const ContactPage = () => {
       <section className="contact-hero">
         <div className="contact-hero__overlay">
           <div className="container">
-            <h1>Contact Us</h1>
+  <h1>Contact Us</h1>
 
-            <p>
-           <h1>Contact Us</h1>
-
-<p>
-  Get in touch for wholesale pricing, bulk orders,
-  and delivery of bottled water and water softening
-  products across New York.
-</p>
-            </p>
-          </div>
+  <p>
+    Get in touch for wholesale pricing, bulk orders,
+    and delivery of bottled water and water softening
+    products across New York.
+  </p>
+</div>
         </div>
       </section>
 
@@ -95,8 +91,9 @@ export const ContactPage = () => {
 <input
  type="text"
  name="company"
- placeholder="Company Name *"
- required
+ placeholder="Company Name
+ "
+ 
 />
 
   <div className="form-row">
@@ -137,9 +134,9 @@ export const ContactPage = () => {
     Bottled Water
   </option>
 
-  <option value="Bulk Food Products">
-    Bulk Food Products
-  </option>
+  <option value="Water Softeners">
+  Water Softeners
+</option>
 
   <option value="Both">
     Both
