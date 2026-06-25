@@ -1,4 +1,5 @@
 import "./ProductCard.css";
+import { Link } from "react-router-dom";
 
 type ProductCardProps = {
   name: string;
@@ -34,12 +35,12 @@ export const ProductCard = ({
           {description}
         </p>
 
-        <a
-          href="/contact"
-          className="product-card__button"
-        >
-          Request Quote
-        </a>
+       <Link
+  to="/contact"
+  className="product-card__button"
+>
+  Request Quote
+</Link>
       </div>
     </article>
   );
