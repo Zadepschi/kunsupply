@@ -7,12 +7,12 @@ export const ProductsPage = () => {
     <main className="products">
       <section className="products-hero">
         <div className="container">
-          <h1>Wholesale Products</h1>
+         <h1>Wholesale Products</h1>
 
-          <p>
-            Bottled water and food products
-            available for wholesale distribution.
-          </p>
+<p>
+  Wholesale bottled water and water softening products
+  serving businesses throughout New York.
+</p>
         </div>
       </section>
 

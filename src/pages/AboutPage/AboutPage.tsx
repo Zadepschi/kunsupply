@@ -17,12 +17,11 @@ return ( <main className="about">
       <h1>About Kan Supply</h1>
 
 
-        <p>
-          For over 5 years, Kan Supply, Inc. has been
-          providing reliable wholesale distribution of
-          bottled water and food products throughout
-          New York.
-        </p>
+       <p>
+  For over 5 years, Kan Supply, Inc. has been providing
+  reliable wholesale distribution of bottled water and
+  water softening products throughout New York.
+</p>
       </div>
     </div>
   </section>

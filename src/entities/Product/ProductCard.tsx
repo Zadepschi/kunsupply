@@ -1,3 +1,5 @@
+import "./ProductCard.css";
+
 type ProductCardProps = {
   name: string;
   image: string;
@@ -24,9 +26,13 @@ export const ProductCard = ({
           {category}
         </span>
 
-        <h3>{name}</h3>
+        <h3 className="product-card__title">
+          {name}
+        </h3>
 
-        <p>{description}</p>
+        <p className="product-card__description">
+          {description}
+        </p>
 
         <a
           href="/contact"

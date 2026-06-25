@@ -23,8 +23,13 @@ export const ContactPage = () => {
             <h1>Contact Us</h1>
 
             <p>
-              Request wholesale pricing, product availability,
-              and delivery information.
+           <h1>Contact Us</h1>
+
+<p>
+  Get in touch for wholesale pricing, bulk orders,
+  and delivery of bottled water and water softening
+  products across New York.
+</p>
             </p>
           </div>
         </div>

@@ -15,8 +15,8 @@ export const HomePage = () => {
         </h1>
 
         <p className="hero__text">
-          Reliable supply of bottled water and bulk food products for retailers, distributors, and businesses throughout New York.
-        </p>
+  Reliable wholesale distribution of bottled water and water softening products throughout New York.
+</p>
 
         <button className="hero__button"
           onClick={() => {

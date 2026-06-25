@@ -14,11 +14,11 @@ export const LogisticsPage = () => {
                 Logistics & Delivery
               </h1>
 
-             <p className="logistics__subtitle">
-                Reliable distribution of bottled water
-                and bulk food products across New York
-                for retailers, distributors, and businesses.
-             </p>
+            <p className="logistics__subtitle">
+  Reliable wholesale distribution of bottled water
+  and water softening products serving retailers,
+  distributors, and businesses throughout New York.
+</p>
             </div>
 
             <div className="logistics__hero-image">
