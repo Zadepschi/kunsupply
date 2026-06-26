@@ -1,9 +1,11 @@
+
 import "./LogisticsPage.css";
-import logisticImg from "../../assets/logistic.png"; 
+import logisticImg from "../../assets/logistic.png";
 import { useNavigate } from "react-router-dom";
 
 export const LogisticsPage = () => {
-   const navigate = useNavigate();
+  const navigate = useNavigate();
+
   return (
     <main className="logistics">
       <section className="logistics__hero">
@@ -14,11 +16,11 @@ export const LogisticsPage = () => {
                 Logistics & Delivery
               </h1>
 
-            <p className="logistics__subtitle">
-  Reliable wholesale distribution of bottled water
-  and water softening products serving retailers,
-  distributors, and businesses throughout New York.
-</p>
+              <p className="logistics__subtitle">
+                Reliable wholesale distribution of bottled water
+                and water softening products serving retailers,
+                distributors, and businesses throughout New York.
+              </p>
             </div>
 
             <div className="logistics__hero-image">
@@ -30,7 +32,6 @@ export const LogisticsPage = () => {
           </div>
         </div>
       </section>
-
 
       <section className="logistics__section">
         <div className="container">
@@ -104,6 +105,35 @@ export const LogisticsPage = () => {
         </div>
       </section>
 
+      <section className="logistics__section logistics__warehouse">
+        <div className="container">
+          <h2>Warehouse Location</h2>
+
+          <p>
+            Our primary distribution warehouse is located in
+            Brooklyn, New York and supports deliveries across
+            New York State and surrounding areas.
+          </p>
+
+          <div className="logistics__address">
+            📍 114 44th St, Brooklyn, NY 11232, USA
+          </div>
+
+          <div className="logistics__map">
+            <iframe
+              title="Warehouse Location"
+              src="https://www.google.com/maps?q=114+44th+St,+Brooklyn,+NY+11232,+USA&output=embed"
+              width="100%"
+              height="450"
+              style={{ border: 0 }}
+              loading="lazy"
+              allowFullScreen
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
+        </div>
+      </section>
+
       <section className="logistics__cta">
         <div className="container">
           <h2>Need a Shipping Quote?</h2>
@@ -113,15 +143,15 @@ export const LogisticsPage = () => {
             freight estimates, and volume pricing.
           </p>
 
-   <button
-  className="logistics__button"
-  onClick={() => {
-    navigate("/contact");
-    window.scrollTo(0, 0);
-  }}
->
-  Request Wholesale Pricing
-</button>
+          <button
+            className="logistics__button"
+            onClick={() => {
+              navigate("/contact");
+              window.scrollTo(0, 0);
+            }}
+          >
+            Request Wholesale Pricing
+          </button>
         </div>
       </section>
     </main>
